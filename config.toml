@@ -45,13 +45,13 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Avatars can be written to images/avatars/
     avatar = "kate.jpg"
     position = "Product Manager"
-    livesIn = "Brooklyn, NY"
+    livesIn = "New York"
     scope = [
-        "Senior Product Manager at [Paribus](https://www.paribus.co?ref=kate)",
+        "Senior Product Manager at [BuzzFeed](https://www.buzzfeed.com?ref=kate)",
         "Instructor at [General Assembly](https://www.ga.co)",
-        "Alumni of [Esty](https://www.Etsy.com), [Shapeways](https://www.shapeways.com), [PowerMyLearning](https://www.powermylearning.com), [Northeastern University](https://www.neu.edu)"
+        "Alumni of [Esty](https://www.Etsy.com), [Shapeways](https://www.shapeways.com), [Paribus](https://www.paribus.co), [PowerMyLearning](https://www.powermylearning.com), [Northeastern University](https://www.neu.edu)"
       ]
-    biography = """Kate Zasada is a user-focused product manager in NYC. She loves working on consumer products and briging the gap between technologists and their markets. Feel free to reach out about working together or to share your favorite adorable puppy pictures at kate@kzasada.com."""
+    biography = """Kate Zasada is a user-focused product manager in NYC. She loves working on consumer products and bridging the gap between technologists and their markets. Feel free to reach out about working together or to share your favorite adorable puppy pictures at kate@kzasada.com."""
 
 
     #[[params.contact.fields.hidden]]
@@ -72,9 +72,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://www.instagram.com/kzasada"
     
   [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
-    link = "#"
+    title = "Github"
+    icon = "fa-github"
+    link = "https://www.github.com/kzasada"
 
   # Footer settings
   [params.footer]
