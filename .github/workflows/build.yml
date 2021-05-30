@@ -22,9 +22,6 @@ jobs:
         # Rename public/ -> docs/
         mv public docs
 
-        # Add CNAME
-        echo "kzasada.com" > docs/CNAME
-
         # Commit updates
         git add docs
         git commit -m "Automated build"
