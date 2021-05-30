@@ -18,6 +18,10 @@ jobs:
         # Setup git user
         git config user.name "GitHub Actions Bot"
         git config user.email "<>"
+
+        # Rename public/ -> docs/
+        mv public docs
+
         # Add CNAME
         echo "kzasada.com" > docs/CNAME
 
