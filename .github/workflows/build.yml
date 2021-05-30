@@ -1,0 +1,27 @@
+name: Build
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    name: Build Hugo Site
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Cleanup
+      run: rm -rf docs public
+    - name: Build Hugo
+      uses: lowply/build-hugo@v0.83.1
+    - name: Commit changes
+      run: |
+        # Setup git user
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+        # Add CNAME
+        echo "kzasada.com" > docs/CNAME
+
+        # Commit updates
+        git add docs
+        git commit -m "Automated build"
+        git push origin master
