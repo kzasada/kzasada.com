@@ -47,9 +47,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     position = "Product Manager"
     livesIn = "New York"
     scope = [
-        "Senior Product Manager at [BuzzFeed](https://www.buzzfeed.com?ref=kate)",
-        "Instructor at [General Assembly](https://www.ga.co)",
-        "Alumni of [Esty](https://www.Etsy.com), [Shapeways](https://www.shapeways.com), [Paribus](https://www.paribus.co), [PowerMyLearning](https://www.powermylearning.com), [Northeastern University](https://www.neu.edu)"
+        "Group Product Manager at [Zapier](https://www.zapier.com?ref=kate)",
+        "Instructor and Speaker,
+        "Alumni of [Etsy](https://www.Etsy.com), [BuzzFeed](https://www.BuzzFeedNews.com), [General Assembly](https://www.ga.co), [Shapeways](https://www.shapeways.com), [Capital One](https://www.capitalone.co), [PowerMyLearning](https://www.powermylearning.com), [Northeastern University](https://www.neu.edu)"
       ]
     biography = """Kate Zasada is a user-focused product manager in NYC. She loves working on consumer products and bridging the gap between technologists and their markets. Feel free to reach out about working together or to share your favorite adorable puppy pictures at kate@kzasada.com."""
 
